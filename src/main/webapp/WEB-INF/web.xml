@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<servlet-class>com.saicards.controller.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>CheckLogin</servlet-name>
+  	<servlet-class>com.saicards.controller.CheckLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckLogin</servlet-name>
+    <url-pattern>/CheckLogin</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>Category</servlet-name>
+  	<servlet-class>com.saicards.controller.Category</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Category</servlet-name>
+    <url-pattern>/Category</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>Products</servlet-name>
+  	<servlet-class>com.saicards.controller.Products</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>Products</servlet-name>
+    <url-pattern>/Products</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>com.saicards.controller.Logout</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>ChangePassword</servlet-name>
+  	<servlet-class>com.saicards.controller.ChangePassword</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePassword</servlet-name>
+    <url-pattern>/ChangePassword</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>CartItem</servlet-name>
+  	<servlet-class>com.saicards.controller.CartItem</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>CartItem</servlet-name>
+    <url-pattern>/CartItem</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>UpdateQty</servlet-name>
+  	<servlet-class>com.saicards.controller.UpdateQty</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateQty</servlet-name>
+    <url-pattern>/UpdateQty</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>CreateOrder</servlet-name>
+  	<servlet-class>com.saicards.controller.CreateOrder</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateOrder</servlet-name>
+    <url-pattern>/CreateOrder</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>GetCustomer</servlet-name>
+  	<servlet-class>com.saicards.controller.GetCustomer</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>GetCustomer</servlet-name>
+    <url-pattern>/GetCustomer</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>PlaceOrder</servlet-name>
+  	<servlet-class>com.saicards.controller.PlaceOrder</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>PlaceOrder</servlet-name>
+    <url-pattern>/PlaceOrder</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>GetOrderItems</servlet-name>
+  	<servlet-class>com.saicards.controller.GetOrderItems</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>GetOrderItems</servlet-name>
+    <url-pattern>/GetOrderItems</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>GetOrder</servlet-name>
+  	<servlet-class>com.saicards.controller.GetOrder</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>GetOrder</servlet-name>
+    <url-pattern>/GetOrder</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>UpdateStatus</servlet-name>
+  	<servlet-class>com.saicards.controller.UpdateStatus</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStatus</servlet-name>
+    <url-pattern>/UpdateStatus</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>CheckAdminLogin</servlet-name>
+  	<servlet-class>com.saicards.controller.CheckAdminLogin</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckAdminLogin</servlet-name>
+    <url-pattern>/CheckAdminLogin</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>DeleteCategory</servlet-name>
+  	<servlet-class>com.saicards.controller.DeleteCategory</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCategory</servlet-name>
+    <url-pattern>/DeleteCategory</url-pattern>
+</servlet-mapping>
+<servlet>
+  	<servlet-name>SortByCata</servlet-name>
+  	<servlet-class>com.saicards.controller.SortByCata</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>SortByCata</servlet-name>
+    <url-pattern>/SortByCata</url-pattern>
+</servlet-mapping>
+</web-app>
